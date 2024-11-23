@@ -6,7 +6,7 @@ phases:
             nodejs: 20
         commands:
             - echo installing nodeJS version 20...
-    pre-build:
+    pre_build:
         commands:
             - echo installing dependencies...
             - npm install
